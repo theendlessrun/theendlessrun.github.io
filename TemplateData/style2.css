@@ -12,6 +12,10 @@ body {
   color: white;
 }
 
+#info-container h1 {
+  text-shadow: white 0px 0px 3px;
+}
+
 #creators {
   margin-bottom: 150px;
 }
@@ -29,8 +33,14 @@ a {
 #github-icon {
   background-image: url("github-mark-white.svg");
   margin: 0 auto;
+  padding-right: 0.5px;
   height: 50px;
-  width: 52px;
-  border: none;
+  width: 50px;
+  border-radius: 30px;
   background-size: cover;
+  box-shadow: white 0px 0px 5px;
+}
+a:hover {
+  box-shadow: white 0px 0px 5px;
+  text-shadow: white 0px 0px 5px;
 }
