@@ -13,9 +13,11 @@ body {
   transform: translate(-50%, -50%);
   width: 22%;
   max-height: 65%;
+  min-width: 300px;
   border: solid;
   border-color: white;
   border-radius: 5px;
+  box-shadow: gold 0px 0px 5px;
   padding: 20px 25px 30px 25px;
   color: white;
   display: flex;
@@ -29,4 +31,42 @@ body {
 tr {
   display: flex;
   justify-content: space-between;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  text-shadow: white 0px 0px 3px;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+  text-shadow: gold 0px 0px 3px;
+}
+
+#title-text {
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  transform: translate(-50%, -50%);
+}
+
+.first-place,
+.second-place,
+.third-place {
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.first-place {
+  text-shadow: gold 0px 0px 3px;
+}
+
+.second-place {
+  text-shadow: silver 0px 0px 3px;
+}
+
+.third-place {
+  text-shadow: #cd7f32 0px 0px 3px;
 }
