@@ -113,6 +113,10 @@ a {
   border-color: white;
 }
 
+#highscores {
+  text-shadow: gold 0px 0px 3px;
+}
+
 #github-icon {
   background-image: url("github-mark-white.svg");
   margin: 0 auto;
