@@ -5,4 +5,3 @@ robin 3300
 jerry 2730
 tim 1390
 oscar 1100
-test 0001
