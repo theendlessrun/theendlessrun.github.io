@@ -6,14 +6,14 @@
     <title>The Endless Run</title>
     <link rel="stylesheet" href="TemplateData/style3.css" />
   </head>
-  <body>
+  <body onload="addScores()">
     <div id="title-text">
       <h1>The Endless Run</h1>
       <h2>High Scores</h2>
     </div>
     <div id="highscore-list">
-      <table>
-        <tr>
+      <table id="highscore-table">
+        <!-- <tr>
           <td class="first-place">nina</td>
           <td class="first-place">69696969</td>
         </tr>
@@ -40,8 +40,9 @@
         <tr>
           <td>oscar</td>
           <td>1100</td>
-        </tr>
+        </tr> -->
       </table>
     </div>
+    <script src="highscores.js"></script>
   </body>
 </html>
